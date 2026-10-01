@@ -4,7 +4,7 @@ An interactive and dynamic 2D Chemistry Sandbox simulation built with Godot Engi
 
 ## General Info  
 **Platforms**: GNU+Linux, Windows, MacOS  
-**Version**: 0.1.0  
+**Version**: 1.0.0  
 **Author**: GDucpm  
 **Contributors**: none for the time being  
 **Engine**: Godot 4.x  
