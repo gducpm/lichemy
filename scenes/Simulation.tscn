@@ -1,0 +1,94 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/Simulation.gd" id="1_sim"]
+
+[node name="Simulation" type="Node2D"]
+script = ExtResource("1_sim")
+
+[node name="Workspace" type="Node2D" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="UI"]
+offset_right = 250.0
+offset_bottom = 720.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+
+[node name="Title" type="Label" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "lichemy"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Spawn Element:"
+
+[node name="ElementDropdown" type="OptionButton" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SpawnButton" type="Button" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Spawn"
+
+[node name="HSeparator2" type="HSeparator" parent="UI/Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="InfoLabel" type="Label" parent="UI/Panel"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = -200.0
+offset_right = -10.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Select an atom to view info."
+autowrap_mode = 2
+
+[node name="ActionContainer" type="VBoxContainer" parent="UI/Panel"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = -85.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="UnlinkButton" type="Button" parent="UI/Panel/ActionContainer"]
+layout_mode = 2
+text = "Unlink Molecule"
+disabled = true
+
+[node name="CloneButton" type="Button" parent="UI/Panel/ActionContainer"]
+layout_mode = 2
+text = "Clone Molecule"
+disabled = true
+
+[node name="DeleteButton" type="Button" parent="UI/Panel/ActionContainer"]
+layout_mode = 2
+text = "Delete Atom"
+disabled = true

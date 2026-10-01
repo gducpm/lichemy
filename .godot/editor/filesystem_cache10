@@ -1,0 +1,15 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1790862332
+export_presets.cfg::TextFile::-1::1790820568::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1790820944::0::1::::<><><>0<>0<><>::
+::res://scenes/::1790819995
+Atom.tscn::PackedScene::-1::1790819982::0::1::::<><><>0<>0<><>::res://scripts/Atom.gd
+Molecule.tscn::PackedScene::-1::1790819991::0::1::::<><><>0<>0<><>::res://scripts/Molecule.gd
+Simulation.tscn::PackedScene::-1::1790820331::0::1::::<><><>0<>0<><>::res://scripts/Simulation.gd
+::res://scripts/::1790820017
+Atom.gd::GDScript::4474954228574847410::1790819982::0::1::::Atom<>RigidBody2D<><>0<>0<><>::
+ElementData.gd::GDScript::8640888164418319272::1790819977::0::1::::ElementData<>Resource<><>0<>0<><>::
+ElementDatabase.gd::GDScript::5583082696221985869::1790819979::0::1::::<>Node<><>0<>0<><>::
+Molecule.gd::GDScript::4365105529230450868::1790820331::0::1::::Molecule<>Node2D<><>0<>0<><>::
+ReactionManager.gd::GDScript::5260772715563821502::1790819995::0::1::::<>Node<><>0<>0<><>::
+Simulation.gd::GDScript::5564735638261017945::1790820351::0::1::::<>Node2D<><>0<>0<><>::

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/Molecule.gd" id="1_mol"]
+
+[node name="Molecule" type="Node2D" groups=["molecules"]]
+script = ExtResource("1_mol")
